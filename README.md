@@ -11,3 +11,16 @@ Everything is created inside "pipenv"
 
 #running
 pipenv run python shotty/shotty.py
+
+Added more commands on CLI using CLICK module for python. Using BOTO3 module to manage EC2 instances.
+
+Using Click module following commands are added:
+1. List - List all the EC2 instance, their status and more. 
+2. Start
+3. Stop
+
+pipenv run python shotty/shotty.py --help
+pipenv run python shotty/shotty.py list
+pipenv run python shotty/shotty.py start
+pipenv run python shotty/shotty.py stop
+
