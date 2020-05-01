@@ -20,7 +20,11 @@ Using Click module following commands are added:
 3. Stop
 
 pipenv run python shotty/shotty.py --help
+
 pipenv run python shotty/shotty.py list
+
 pipenv run python shotty/shotty.py start
+
 pipenv run python shotty/shotty.py stop
+
 
